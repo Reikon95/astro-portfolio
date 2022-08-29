@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/project.astro
-title: Scrimba Podcast
+title: Scrimba Livestream
 client: Self
 publishDate: 2021-03-02 00:00:00
 img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=75
@@ -13,3 +13,4 @@ tags:
 ---
 
 Scrimba.
+https://youtu.be/TAXWmYIvI0c
