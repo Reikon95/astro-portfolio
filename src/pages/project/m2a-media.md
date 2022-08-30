@@ -12,7 +12,7 @@ tags:
   - branding
 ---
 
-At M2A Media, I worked on a number of projects for blue chip clients in the broadcasting industry.
+At M2A Media, I worked on a number of projects for blue chip clients in the broadcasting industry. I was primarily working on the front end, using a mixture of React and Angular.
 
 Technologies used:
 Languages: Javascript, Typescript, Angular, React, Stencil, Python
