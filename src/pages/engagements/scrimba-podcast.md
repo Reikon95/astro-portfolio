@@ -12,5 +12,6 @@ tags:
   - branding
 ---
 
-Scrimba.
+Joined Scrimba for a podcast to discuss how to use networking to get your first role in tech.
 
+https://open.spotify.com/episode/1U1xVfQa0rjRg2hsNydEmv?si=EAk48m4_SiCTWXCxWtuDag

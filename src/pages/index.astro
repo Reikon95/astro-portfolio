@@ -4,6 +4,8 @@ import MainHead from "../components/MainHead.astro";
 import Button from "../components/Button/index.jsx";
 import Nav from "../components/Nav/index.jsx";
 import Footer from "../components/Footer/index.jsx";
+import Landing from "../components/Landing/index.jsx";
+
 import PortfolioPreview from "../components/PortfolioPreview/index.jsx";
 
 // Data Fetching: List all Markdown posts in the repo.
@@ -194,7 +196,7 @@ const featuredProject = projects[0];
       <div class="gradient2"></div>
       <div class="overlay">
         <h1 class="title">Cameron Blackwood</h1>
-        <div>
+        <!-- <div>
           <span class="role"
             >👩‍💻 Developer <span class="invert">👩‍💻 Developer</span>
           </span>&nbsp;
@@ -204,7 +206,8 @@ const featuredProject = projects[0];
           <span class="role"
             >✏️ Writer <span class="invert">✏️ Writer</span>
           </span>
-        </div>
+        </div> -->
+        <Landing />
       </div>
     </header>
     <Footer />
