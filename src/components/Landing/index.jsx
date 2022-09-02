@@ -6,19 +6,25 @@ export default function Landing() {
   return (
     <>
       <div>
-        <span class="role" onClick={() => setActiveComponent("Dev")}>
-          👨‍💻 Developer <span class="invert">👨‍💻 Developer</span>
+        <span className={Styles.role} onClick={() => setActiveComponent("Dev")}>
+          👨‍💻 Developer <span className={Styles.invert}>👨‍💻 Developer</span>
         </span>
         &nbsp;
-        <span class="role" onClick={() => setActiveComponent("Podcaster")}>
-          🎙️ Podcaster <span class="invert">🎙️ Podcaster</span>
+        <span
+          className={Styles.role}
+          onClick={() => setActiveComponent("Podcaster")}
+        >
+          🎙️ Podcaster <span className={Styles.invert}>🎙️ Podcaster</span>
         </span>
         &nbsp;
-        <span class="role" onClick={() => setActiveComponent("Hacker")}>
-          📈 Indie Hacker <span class="invert">📈 Indie Hacker</span>
+        <span
+          className={Styles.role}
+          onClick={() => setActiveComponent("Hacker")}
+        >
+          📈 Indie Hacker <span className={Styles.invert}>📈 Indie Hacker</span>
         </span>
       </div>
-      AAAAAAAA
+      <div className={Styles.details}>Active: {activeComponent}</div>
     </>
   );
 }
