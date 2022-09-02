@@ -1,0 +1,37 @@
+.role {
+  color: white;
+  position: relative;
+  display: inline-block;
+  font-weight: 900;
+  background-color: var(--t-fg);
+  padding: 0.25em 0.5em;
+  z-index: 2;
+
+  + .role {
+    margin-left: 1em;
+  }
+
+  &:hover {
+    .invert {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+  }
+}
+
+.invert {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 200%, 0% 200%);
+  transition: clip-path cubic-bezier(0.4, 0, 0.5, 1) 150ms;
+}
+
+.details {
+  color: white;
+}

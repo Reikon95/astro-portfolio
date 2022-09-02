@@ -10,5 +10,5 @@ tags:
   - youtube
 ---
 
-Scrimba.
+Joined Scrimba for a livestream to discuss how to use networking to get your first role in tech.
 https://youtu.be/TAXWmYIvI0c

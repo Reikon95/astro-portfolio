@@ -11,9 +11,13 @@
   },
   "devDependencies": {
     "@astrojs/preact": "^1.0.2",
-    "@astrojs/react": "^1.1.0",
+    "@astrojs/react": "^1.1.1",
+    "@astrojs/svelte": "^1.0.0",
     "astro": "^1.1.1",
-    "sass": "^1.52.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.52.2",
+    "svelte": "^3.50.0"
   },
   "dependencies": {
     "preact": "^10.7.3"

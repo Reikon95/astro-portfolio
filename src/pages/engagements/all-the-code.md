@@ -12,6 +12,6 @@ tags:
   - branding
 ---
 
-Joined All The Code to Discuss My Journey So Far
+Joined All The Code to discuss my journey into tech and what I've learned from it.
 
 https://open.spotify.com/episode/1znyZACdZhFR6TiNK5qy1x?si=XuAEqTs8QBOOAdqzuBtxlA
