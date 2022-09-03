@@ -19,7 +19,6 @@ export default function Landing() {
     },
   ];
 
-  console.log(roles.find((el) => el.role === "dev"));
   return (
     <>
       <div>
