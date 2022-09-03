@@ -5,7 +5,7 @@ client: Self
 publishDate: 2022-04-04 00:00:00
 img: https://images.unsplash.com/photo-1548391350-1a529f6ea42d?fit=crop&w=1400&h=700&q=75
 description: |
-  Software Engineer: 2022 - Present
+  Software Engineer at Holland and Barrett: 2022 - Present
 tags:
   - design
   - dev

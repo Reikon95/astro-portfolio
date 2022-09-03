@@ -1,15 +1,11 @@
 ---
 // Component Imports
 import MainHead from "../components/MainHead.astro";
-import Button from "../components/Button/index.jsx";
 import Nav from "../components/Nav/index.jsx";
 import Footer from "../components/Footer/index.jsx";
 import Landing from "../components/Landing/index.jsx";
 
-// import PortfolioPreview from "../components/PortfolioPreview/index.jsx";
-
 // Data Fetching: List all Markdown posts in the repo.
-const projects = await Astro.glob("./project/**/*.md");
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -26,17 +22,7 @@ const projects = await Astro.glob("./project/**/*.md");
 
       .hero {
         position: relative;
-        overflow: hidden;
-
-        @media (min-width: $w-s) {
-          height: 45vw;
-        }
-      }
-
-      .img {
-        display: block;
-        width: 100%;
-        height: auto;
+        min-height: 45vw;
       }
 
       .gradient,
@@ -144,21 +130,6 @@ const projects = await Astro.glob("./project/**/*.md");
             clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
           }
         }
-      }
-
-      .invert {
-        position: absolute;
-        color: var(--t-fg);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        pointer-events: none;
-        clip-path: polygon(0% 100%, 100% 100%, 100% 200%, 0% 200%);
-        transition: clip-path cubic-bezier(0.4, 0, 0.5, 1) 150ms;
       }
 
       .desc {
