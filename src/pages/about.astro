@@ -2,6 +2,8 @@
 import MainHead from "../components/MainHead.astro";
 import Footer from "../components/Footer/index.jsx";
 import Nav from "../components/Nav/index.jsx";
+import FAQ from "../components/FAQ/index.jsx";
+
 const { hideNav } = Astro.props;
 ---
 
@@ -39,15 +41,7 @@ const { hideNav } = Astro.props;
           cat Earl!
         </p>
         <h2>FAQ</h2>
-        <li>Would you be willing to work onsite?</li>
-        <p>
-          Probably not, maybe 1-2 times a week in Edinburgh. I will
-          occassionally travel to London.
-        </p>
-        <li>How do you prefer to be contacted?</li>
-        <p>Ideally via Linkedin or Twitter, links are in the top right.</p>
-        <li>Can I call you?</li>
-        <p>Let's set it up first via the channels in the above answer.</p>
+        <FAQ />
       </div>
     </div>
 
