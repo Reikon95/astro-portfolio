@@ -4,8 +4,10 @@ import MainHead from "../components/MainHead.astro";
 import Nav from "../components/Nav/index.jsx";
 import Footer from "../components/Footer/index.jsx";
 import Landing from "../components/Landing/index.jsx";
-import About from "./about.astro";
+import AppearancesPreview from "../components/AppearancesPreview/index.jsx";
+import WorkPreview from "../components/WorkPreview/index.jsx";
 
+import About from "./about.astro";
 // Data Fetching: List all Markdown posts in the repo.
 
 // Full Astro Component Syntax:
@@ -24,6 +26,11 @@ import About from "./about.astro";
       .hero {
         position: relative;
         min-height: 45vw;
+      }
+
+      .flexbox {
+        display: flex;
+        justify-content: space-around;
       }
 
       .gradient,
@@ -172,7 +179,10 @@ import About from "./about.astro";
       </div>
     </header>
     <About hideNav={true} />
-    <div><div>My Work</div><div>My Appearences</div></div>
+    <div class="flexbox">
+      <WorkPreview />
+      <AppearancesPreview />
+    </div>
     <Footer />
   </body>
 </html>
