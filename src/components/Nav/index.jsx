@@ -7,11 +7,11 @@ function Nav() {
       <a className={Styles.logolink} href="/">
         <div className={Styles.monogram}>CB</div>
       </a>
-      <a className={Styles.link} href="/projects">
-        My Work
-      </a>
       <a className={Styles.link} href="/about">
         About
+      </a>
+      <a className={Styles.link} href="/work">
+        My Work
       </a>
       <a className={Styles.link} href="/appearances">
         Appearances

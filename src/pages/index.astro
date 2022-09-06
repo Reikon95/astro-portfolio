@@ -4,7 +4,7 @@ import MainHead from "../components/MainHead.astro";
 import Nav from "../components/Nav/index.jsx";
 import Footer from "../components/Footer/index.jsx";
 import Landing from "../components/Landing/index.jsx";
-import AppearancesPreview from "../components/AppearancesPreview/index.jsx";
+import ApperancesPreview from "../components/AppearancesPreview/index.jsx";
 import WorkPreview from "../components/WorkPreview/index.jsx";
 
 import About from "./about.astro";
@@ -30,7 +30,7 @@ import About from "./about.astro";
 
       .flexbox {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
       }
 
       .gradient,
@@ -181,7 +181,7 @@ import About from "./about.astro";
     <About hideNav={true} />
     <div class="flexbox">
       <WorkPreview />
-      <AppearancesPreview />
+      <ApperancesPreview />
     </div>
     <Footer />
   </body>
