@@ -4,7 +4,6 @@
   cursor: pointer;
   display: inline-block;
   font-weight: 900;
-  background-color: var(--t-fg);
   padding: 0.25em 0.5em;
   z-index: 2;
 
@@ -22,21 +21,3 @@
 .details {
   color: white;
 }
-
-// &:nth-of-type(1) {
-//   .invert {
-//     background-color: var(--c-pink);
-//   }
-// }
-
-// &:nth-of-type(2) {
-//   .invert {
-//     background-color: var(--c-blue);
-//   }
-// }
-
-// &:nth-of-type(3) {
-//   .invert {
-//     background-color: var(--c-green);
-//   }
-// }

@@ -14,7 +14,8 @@
 }
 
 .link {
-  color: var(--t-subdue);
+  cursor: default;
+  color: darkslategrey;
   display: block;
   margin-left: 1rem;
   text-decoration: none;
@@ -22,7 +23,6 @@
   text-transform: uppercase;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
-
   &:focus,
   &:hover {
     color: var(--t-active);
