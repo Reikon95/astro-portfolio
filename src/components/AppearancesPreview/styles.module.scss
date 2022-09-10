@@ -7,11 +7,9 @@ $bg: rgba(0, 0, 0, 0.2);
   margin: 0;
   padding: 0;
 }
-.container {
-  max-width: 50w;
-}
-.bg,
-.overlay {
+
+.overlay,
+.titleOver {
   text-align: center;
 }
 
@@ -41,15 +39,27 @@ img,
     opacity: 0;
     h2 {
       padding-top: 20%;
-      font-family: "Droid Serif", serif;
     }
-    p {
-      font-family: "Julius Sans One", sans-serif;
+  }
+  .titleOver {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: $bg;
+    color: #fff;
+    opacity: 1;
+    h2 {
+      padding-top: 20%;
     }
   }
   &:hover {
     .overlay {
       opacity: 1;
+    }
+    .titleOver {
+      opacity: 0;
     }
     img {
       -webkit-filter: blur(2px);
