@@ -21,27 +21,35 @@ const { hideNav } = Astro.props;
     <div class="wrapper">
       <div class="bio wrapper wrapper__readable mt8">
         <h1>About Me</h1>
-        <p>
-          I'm a frontend biased full stack frontend engineer with a little bit
-          of enterpeneur sprinkled in. As a former technical recruiter before
-          learning to code, I bring an unorthodox perspective to the table.
-        </p>
-
-        <p>
-          Day to day, I work as a software engineer at Holland & Barrett and by
-          night and at weekends I'm Co-Founder at The Coder Career, a careers
-          network for people in tech!
-        </p>
-        <p>
-          Outside work, my biggest hobby is rugby - I play for my local team
-          here in Edinburgh and am a huge fan of the game. When I'm not clearing
-          out a ruck or desperatley chasing down a speedy winger, I'm usually
-          playing guitar, walking or hanging out with my girlfriend - and our
-          cat Earl!
-        </p>
+        <ul>
+          <li>
+            I'm a frontend biased full stack frontend engineer with a little bit
+            of enterpeneur sprinkled in 🖥️
+          </li>
+          <li>
+            As a former technical recruiter before learning to code, I bring an
+            unorthodox perspective to the table 🤝
+          </li>
+          <li>
+            I work as a software engineer at Holland & Barrett - right now, I'm
+            in the supply chain team 💊
+          </li>
+          <li>
+            I'm Co-Founder at The Coder Career, a careers network for people in
+            tech 📈
+          </li>
+          <li>
+            Outside work, my biggest hobby is rugby - I play for my local team
+            here in Edinburgh and am a huge fan of the game 🏉
+          </li>
+          <li>
+            I'm usually playing guitar, lifting weights or hanging out with my
+            cat Earl Grey 😺
+          </li>
+        </ul>
       </div>
-    </div>
 
-    {!hideNav && <Footer />}
+      {!hideNav && <Footer />}
+    </div>
   </body>
 </html>
