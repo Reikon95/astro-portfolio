@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: M2A Media
 client: Self
 publishDate: 2020-03-02 00:00:00
-img: https://images.unsplash.com/photo-1547234935-80c7145ec969?fit=crop&w=1400&h=700&q=75
+img: https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80
 description: |
   Junior Software Engineer - 2020-2021.
 tags:

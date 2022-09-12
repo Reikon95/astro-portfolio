@@ -9,7 +9,7 @@ export default function WorkPreview() {
         alt=""
       />
       <div className={Styles.titleOver}>
-        <h2>My Appearances</h2>
+        <h2 className={Styles.imageOverlayHeader}>My Work</h2>
       </div>
       <div className={Styles.overlay}>
         <h2>Find Out More!</h2>

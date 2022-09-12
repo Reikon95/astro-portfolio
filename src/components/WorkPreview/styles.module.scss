@@ -19,6 +19,10 @@ img,
   border-radius: 3px;
 }
 
+img {
+  filter: blur(1px);
+}
+
 .bg {
   float: left;
   max-width: 31%;

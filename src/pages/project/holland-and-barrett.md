@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: Holland and Barrett
 client: Self
 publishDate: 2022-04-04 00:00:00
-img: https://images.unsplash.com/photo-1548391350-1a529f6ea42d?fit=crop&w=1400&h=700&q=75
+img: https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80
 description: |
   Software Engineer at Holland and Barrett: 2022 - Present
 tags:
