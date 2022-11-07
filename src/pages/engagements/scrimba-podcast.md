@@ -7,9 +7,7 @@ img: https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1
 description: |
   Discussing networking on the scrimba podcast.
 tags:
-  - design
-  - dev
-  - branding
+  - podcast
 ---
 
 Joined Scrimba for a podcast to discuss how to use networking to get your first role in tech.
