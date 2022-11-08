@@ -29,6 +29,12 @@ function ContentLink() {
       description:
         "Follow me on LinkedIn - or connect if you want to reach me!",
     },
+    {
+      text: "YouTube",
+      url: "https://www.youtube.com/channel/UCX6jvWxIvSDohlXRyawwymQ",
+      description:
+        "My career advice and tech tips, beamed to you in high definition",
+    },
   ];
   return (
     <div className={Styles.linksWrapper}>

@@ -16,6 +16,9 @@ function Nav() {
       <a className={Styles.link} href="/appearances">
         Appearances
       </a>
+      <a className={Styles.link} href="/links">
+        Content
+      </a>
       <a className={Styles.social} href="https://twitter.com/camblackwood95">
         <svg
           className={Styles.socialicon}
