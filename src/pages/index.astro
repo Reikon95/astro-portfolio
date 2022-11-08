@@ -35,7 +35,6 @@ import About from "./about.astro";
 
       .gradient,
       .gradient2 {
-        background-color: black;
         color: white;
         background-size: cover;
         pointer-events: none;
@@ -49,24 +48,8 @@ import About from "./about.astro";
       }
 
       .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        padding-left: 2rem;
-        max-width: 70vw;
-        @media (min-width: $w-s) {
-          padding-left: 4rem;
-        }
-      }
-
-      .lower-overlay {
+        min-height: 95vh;
+        background-color: rgb(65, 74, 82);
         background-color: rgb(65, 74, 82);
         padding: 16px;
         color: white;
@@ -83,6 +66,11 @@ import About from "./about.astro";
         }
       }
 
+      .headshot {
+        max-height: 25vh;
+        max-width: 25vw;
+      }
+
       .grid {
         display: grid;
         grid-gap: 2rem;
@@ -90,6 +78,16 @@ import About from "./about.astro";
         @media (min-width: 1200px) {
           grid-template-columns: 2fr 1fr;
         }
+      }
+
+      .name-and-headshot {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .landing-options {
+        margin-top: 10%;
       }
     </style>
   </head>
@@ -99,8 +97,11 @@ import About from "./about.astro";
       <div class="gradient"></div>
       <div class="gradient2"></div>
       <div class="overlay">
-        <div class="lower-overlay">
+        <div class="name-and-headshot">
           <h1 class="title">Cameron Blackwood</h1>
+          <img class="headshot" src="/assets/cam-headshot.png" />
+        </div>
+        <div class="landing-options">
           <span class="role">Click a role to find out more about me...</span>
           <Landing client:load />
         </div>
