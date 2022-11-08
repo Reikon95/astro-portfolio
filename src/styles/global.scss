@@ -68,11 +68,6 @@ body {
   box-sizing: content-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 a {
   color: var(--t-active);
 }
@@ -162,4 +157,3 @@ $colors: "black", "blue", "white";
 .wrapper__readable {
   max-width: 50em;
 }
-

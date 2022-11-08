@@ -35,7 +35,6 @@ import About from "./about.astro";
 
       .gradient,
       .gradient2 {
-        background-color: black;
         color: white;
         background-size: cover;
         pointer-events: none;
@@ -49,21 +48,8 @@ import About from "./about.astro";
       }
 
       .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        padding-left: 2rem;
-        max-width: 70vw;
-        @media (min-width: $w-s) {
-          padding-left: 4rem;
-        }
+        min-height: 95vh;
+        background-color: rgb(65, 74, 82);
       }
 
       .lower-overlay {
@@ -81,6 +67,11 @@ import About from "./about.astro";
         @media (min-width: $w-s) {
           font-size: var(--f-u12);
         }
+      }
+
+      .headshot {
+        max-height: 25vh;
+        max-width: 25vw;
       }
 
       .grid {
@@ -101,6 +92,7 @@ import About from "./about.astro";
       <div class="overlay">
         <div class="lower-overlay">
           <h1 class="title">Cameron Blackwood</h1>
+          <img class="headshot" src="/assets/cam-headshot.png" />
           <span class="role">Click a role to find out more about me...</span>
           <Landing client:load />
         </div>
