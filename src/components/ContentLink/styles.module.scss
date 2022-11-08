@@ -1,0 +1,39 @@
+.linksWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkWrapper {
+  border: solid black 1px;
+  margin: 1vh 2vw;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(228, 222, 222);
+  span {
+    width: 25vw;
+  }
+}
+
+.btn {
+  box-sizing: border-box;
+  font-family: inherit;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  box-shadow: shadow(low);
+  border: 1px solid blue;
+  background-color: blue;
+  color: lightblue;
+  font-size: 1rem;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}

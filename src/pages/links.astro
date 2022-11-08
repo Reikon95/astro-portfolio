@@ -1,0 +1,25 @@
+---
+import MainHead from "../components/MainHead.astro";
+import ContentLink from "../components/ContentLink";
+import Nav from "../components/Nav/index.jsx";
+---
+
+<html lang="en">
+  <head>
+    <MainHead title="My Content" description="Connect With Me and My Content" />
+    <style lang="scss">
+      .linkpage {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <Nav />
+    <div class="wrapper linkpage">
+      <h1 class="title mt4 mb4">My Content</h1>
+      <h3>Links to, and details of, my content</h3>
+      <ContentLink />
+    </div>
+    <footer></footer>
+  </body>
+</html>
