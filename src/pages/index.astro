@@ -1,5 +1,4 @@
 ---
-// Component Imports
 import MainHead from "../components/MainHead.astro";
 import Nav from "../components/Nav/index.jsx";
 import Footer from "../components/Footer/index.jsx";
@@ -8,10 +7,6 @@ import ApperancesPreview from "../components/AppearancesPreview/index.jsx";
 import WorkPreview from "../components/WorkPreview/index.jsx";
 
 import About from "./about.astro";
-// Data Fetching: List all Markdown posts in the repo.
-
-// Full Astro Component Syntax:
-// https://docs.astro.build/core-concepts/astro-components/
 ---
 
 <html lang="en">
@@ -33,23 +28,8 @@ import About from "./about.astro";
         justify-content: center;
       }
 
-      .gradient,
-      .gradient2 {
-        color: white;
-        background-size: cover;
-        pointer-events: none;
-        mix-blend-mode: screen;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 2;
-      }
-
       .overlay {
         min-height: 95vh;
-        background-color: rgb(65, 74, 82);
         background-color: rgb(65, 74, 82);
         padding: 16px;
         color: white;
@@ -67,8 +47,8 @@ import About from "./about.astro";
       }
 
       .headshot {
-        max-height: 25vh;
-        max-width: 25vw;
+        height: 100px;
+        width: 100px;
       }
 
       .grid {
@@ -94,8 +74,6 @@ import About from "./about.astro";
   <body>
     <Nav />
     <header class="hero">
-      <div class="gradient"></div>
-      <div class="gradient2"></div>
       <div class="overlay">
         <div class="name-and-headshot">
           <h1 class="title">Cameron Blackwood</h1>
